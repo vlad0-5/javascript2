@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital@0;1&family=Island+Moments&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <header>   
+        <h1>EJERCICIOS EN JAVASCRIPT</h1>
+    </header>
+    <nav>
+        <a href="index.html">EJERCICIO 11</a>
+        <a href="ejercicio2.html">EJERCICIO 12</a>
+        <a href="ejercio3.html">EJERCICIO 21</a>
+        <a href="#">EJERCICIO 32</a>
+        <a href="ejerci5.html">EJERCICIO 31</a>
+    </nav>
+    <a id="EJE"></a> 
+    <div id="ejer1">
+        <br><br>
+        <h2>  32. Un método numérico para calcular la raíz cúbica de un número, 3/P es el método
+            de Halley. El proceso de solución comienza eligiendo un valor x, como primera estimación
+            de la solución. Usando este valor, se calcula un segundo valor x2 más
+            preciso con x2 = x(x+2P) / (2x² +P), que luego se usa para calcular un tercer valor
+            x3 aún más preciso, y así sucesivamente. La ecuación general para calcular el valor
+            de x+1 a partir del valor de x; es x₁ = x(x+2P)/ (2x+P). Escriba un
+            programa de MATLAB que calcule la raíz cúbica de un número. En el programa,
+            use x₁ = P para la primera estimación de la solución. Luego, utilizando la ecuación
+            general en un ciclo, calcule valores nuevos y más precisos. Detenga el bucle
+            cuando el error relativo estimado E definido por E=i+1 sea menor que
+            0,00001. Utilice el programa para calcular:
+            (a) 3/800
+            (b) 3/59071
+            (c)-31,55</h2><br><br>
+        
+        <div id="nro1">
+            <div class="respuesta" >
+                
+                <h2>Calcular el perimetro:</h2> <br>
+                <input type="number" id=A placeholder="defina A">
+                <input type="number" id=B placeholder="defina B">
+              
+             
+                <button onclick="perimetro()">perimetro</button>
+        
+                <h2>Respuesta</h2>
+                <div id="Resu"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+    <script  src="script.js"></script>
+</html>
